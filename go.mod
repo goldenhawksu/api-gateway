@@ -1,4 +1,4 @@
-module github.com/AixPot/api-gateway
+module github.com/aixpot/api-gateway
 
 go 1.21
 
