@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ lower(github.repository) }} #保持仓库名称小写
+  IMAGE_NAME: "aixpot/api-gateway"    # 手动设置全小写路径，确保组织名/仓库名均小写
 
 jobs:
   build-and-push:
